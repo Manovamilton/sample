@@ -1,0 +1,11 @@
+Secondary way to connect instance using Cmd:
+
+ssh -i "Server KeyPair.pem" ubuntu@Public_IP_ADDRESS
+
+For First time: sudo apt install apache2 -y
+
+To run the apache server : sudo service apache2 start
+
+
+TO Push Files to AWS: scp -i "Server KeyPair.pem" ubuntu@Public_IP_ADDRESS
+
